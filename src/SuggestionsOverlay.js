@@ -131,7 +131,7 @@ function SuggestionsOverlay({
 
   return (
     <div
-      {...inline({ position: position || 'absolute', left, right, top }, style)}
+      {...inline(style)}
       onMouseDown={onMouseDown}
       ref={containerRef}
     >
